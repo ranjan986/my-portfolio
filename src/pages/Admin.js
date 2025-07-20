@@ -11,7 +11,7 @@ const Admin = () => {
     if (isLoggedIn) {
       const fetchMessages = async () => {
         try {
-          const res = await axios.get('http://localhost:5000/api/contact');
+          const res = await axios.get('https://portfolio-backend-mnfh.onrender.com/api/contact');
           setMessages(res.data);
         } catch (err) {
           console.error("Failed to fetch messages", err);
@@ -24,7 +24,7 @@ const Admin = () => {
   const handleLogin = async (e) => {
     e.preventDefault(); 
     try {
-      const res = await axios.post('http://localhost:5000/api/admin/messages', { password });
+      const res = await axios.post('https://portfolio-backend-mnfh.onrender.com/api/admin/messages', { password });
       if (res.status === 200) {
         alert("Login Successful!");
         setIsLoggedIn(true); // ← switch to showing messages
