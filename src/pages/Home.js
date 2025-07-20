@@ -12,7 +12,7 @@ const Home = () => {
           <a href="https://linkedin.com/in/ranjan-kushwaha-374b00253">LinkedIn</a>
         </div>
         <div className="resume-download">
-          <a  href="http://localhost:5000/api/resume/download" className='resume-button'>Download Resume</a>
+          <a  href="https://portfolio-backend-mnfh.onrender.com/api/resume/download" className='resume-button'>Download Resume</a>
         </div>
 
       </div>
