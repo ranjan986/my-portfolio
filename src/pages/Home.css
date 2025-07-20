@@ -1,0 +1,48 @@
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home span {
+  color: #00ffff;
+}
+
+.socials a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #00ffff;
+}
+
+.resume-download {
+  margin-top: 20px;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00ffff;
+  color: #111;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.resume-button:hover {
+  background: #00dddd;
+}

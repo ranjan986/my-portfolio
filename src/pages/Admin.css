@@ -1,0 +1,34 @@
+.admin {
+  padding: 60px 20px;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message-card {
+  background: #222;
+  border: 1px solid #00ffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.message-card h3 {
+  margin-top: 0;
+  color: #00ffff;
+}
+
+.message-card .date {
+  font-size: 0.8rem;
+  color: #aaa;
+}
