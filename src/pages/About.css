@@ -31,3 +31,13 @@
   margin-bottom: 10px;
   color: #ccc;
 }
+
+@media (max-width: 768px) {
+  .about p {
+    font-size: 1rem;
+  }
+
+  .skills li {
+    font-size: 1rem;
+  }
+}
