@@ -46,3 +46,18 @@
 .resume-button:hover {
   background: #00dddd;
 }
+
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .socials a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
