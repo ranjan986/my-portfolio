@@ -52,3 +52,20 @@
 .navbar li a:hover::after {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar ul li {
+    margin: 5px 0;
+  }
+}
+
