@@ -61,8 +61,8 @@
   .navbar ul {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Align to the right */
-    gap: 15px;
+    align-items: start; /* Align to the right */
+    gap: 10px;
   }
 
   .navbar ul li {
