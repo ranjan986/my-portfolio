@@ -41,3 +41,15 @@
 .contact button:hover {
   background: #00dddd;
 }
+
+@media (max-width: 768px) {
+  .contact form {
+    width: 90%;
+    margin: auto;
+  }
+
+  .contact input,
+  .contact textarea {
+    font-size: 1rem;
+  }
+}
